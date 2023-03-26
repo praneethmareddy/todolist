@@ -15,7 +15,7 @@ function createListElement() {
 	// li.appendChild(document.createTextNode(input.value));
     li.innerHTML = input.value;
 	input.value = "";
-	delButton.classList.add("delClass");
+	
     delButton.classList.add("button-30");
 	delButton.innerHTML='Del';
 }
@@ -39,7 +39,7 @@ function addListAfterKeypress(event) {
 
 
 function deleteListElement(element) {
-	if (element.target.className === "delClass"){
+	if (element.target.className === "button-30"){
 		element.target.parentElement.remove();
 	}
 }
