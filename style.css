@@ -50,6 +50,12 @@ body {
 
         width:6vh;
     }
+.box:hover {
+   
+    transform: scale(1.05u);
+   
+
+}
 }
 
 
