@@ -52,7 +52,7 @@ body {
     }
 .box:hover {
    
-    transform: scale(1.05);
+    transform: scale(1.01);
    
 
 }
@@ -193,7 +193,7 @@ footer {
   bottom: 0px;
   width: 100%;
     font-size: 0.8rem;
-    font-family: 'Baloo Bhai';
+    font-family: 'sans-serif';
 }
 
 /* CSS */
